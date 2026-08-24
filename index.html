@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jana Ayyad — Computer Science Portfolio</title>
+<meta name="description" content="Jana Ayyad — Computer Science student at Beirut Arab University. CV, projects, skills and career portfolio.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,450;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <nav class="nav">
+    <div class="logo"><span class="dot">&lt;</span>jana<span class="dot">.dev/&gt;</span></div>
+    <ul class="navlinks" id="navlinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#plan">Plan</a></li>
+      <li><a href="#cv">CV</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="navsocial">
+      <a class="icon-btn" href="https://github.com/janaayyad26-code" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg>
+      </a>
+      <a class="icon-btn" href="https://www.linkedin.com/in/jana-ayyad-089721397" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M8 11v5M8 8v.01M12 16v-5M12 16v-3a2 2 0 0 1 4 0v3"/></svg>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+</header>
+
+<!-- Scrollspy dot navigation — jumps to every required section -->
+<nav class="dotnav" aria-label="Page sections">
+  <a href="#home" data-label="Home"></a>
+  <a href="#about" data-label="About"></a>
+  <a href="#skills" data-label="Skills"></a>
+  <a href="#projects" data-label="Projects"></a>
+  <a href="#plan" data-label="Development Plan"></a>
+  <a href="#cv" data-label="CV"></a>
+  <a href="#letter" data-label="Cover Letter"></a>
+  <a href="#reflection" data-label="WBL Reflection"></a>
+  <a href="#learning-style" data-label="Learning Style"></a>
+  <a href="#linkedin" data-label="LinkedIn"></a>
+  <a href="#certifications" data-label="Certifications"></a>
+  <a href="#contact" data-label="Contact"></a>
+</nav>
+
+<!-- ================= 1. HERO / HOME ================= -->
+<section class="hero" id="home">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="eyebrow">Third-Year Computer Science Student · Beirut Arab University</div>
+      <h1>Jana Ayyad's<br><em>Portfolio</em></h1>
+      <p class="lead">Third-year CS student focused on software development, databases and data structures. I turn coursework into real, working projects and keep building on what I learn.</p>
+
+      <div class="hero-meta">
+        <span><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M12 21s7-6.3 7-11a7 7 0 1 0-14 0c0 4.7 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>Tripoli, Lebanon</span>
+        <span><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>j.ayyad26@gmail.com</span>
+        <span><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.7a2 2 0 0 1-.4 2.1L8 9.9a16 16 0 0 0 6 6l1.4-1.4a2 2 0 0 1 2.1-.4c.9.3 1.8.5 2.7.6a2 2 0 0 1 1.8 2.2z"/></svg>+961 71 974 007</span>
+      </div>
+
+      <div class="hero-actions">
+        <a href="#cv" class="btn btn-primary">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 8h10M7 12h10M7 16h6"/></svg>
+          View My CV
+        </a>
+        <a href="#projects" class="btn btn-ghost">View Projects</a>
+        <a href="https://www.linkedin.com/in/jana-ayyad-089721397" target="_blank" rel="noopener" class="btn btn-ghost">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M8 11v5M8 8v.01M12 16v-5M12 16v-3a2 2 0 0 1 4 0v3"/></svg>
+          LinkedIn
+        </a>
+      </div>
+
+      <div class="hero-email" id="copyEmail" title="Click to copy email">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+        <span id="emailText">Let's connect — j.ayyad26@gmail.com</span>
+      </div>
+    </div>
+
+    <div class="polaroid-stage">
+      <div class="polaroid">
+        <div class="tape"></div>
+        <div class="polaroid-photo">
+          <img src="assets/images/headshot.jpg" alt="Jana Ayyad">
+        </div>
+        <div class="polaroid-cap">Jana Ayyad</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <div class="stats-row reveal">
+      <div class="stat"><div class="num">04</div><div class="lbl">Academic Projects</div></div>
+      <div class="stat"><div class="num">03</div><div class="lbl">Certifications</div></div>
+      <div class="stat"><div class="num">03</div><div class="lbl">Volunteering Roles</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= 2. ABOUT ME ================= -->
+<section class="section" id="about">
+  <div class="wrap">
+    <div class="about-grid">
+      <div class="reveal">
+        <div class="about-quickfacts">
+          <div class="eyebrow" style="margin-bottom:18px;">At a Glance</div>
+          <div class="qf-row"><span class="qf-l">University</span><span class="qf-v">Beirut Arab University</span></div>
+          <div class="qf-row"><span class="qf-l">Program</span><span class="qf-v">B.Sc. Computer Science</span></div>
+          <div class="qf-row"><span class="qf-l">Year</span><span class="qf-v">Third Year</span></div>
+          <div class="qf-row"><span class="qf-l">Location</span><span class="qf-v">Tripoli, Lebanon</span></div>
+          <div class="qf-row"><span class="qf-l">Focus Areas</span><span class="qf-v">Web Dev · Databases · Data Structures</span></div>
+        </div>
+        <div class="chip-row">
+          <a class="chip" href="mailto:j.ayyad26@gmail.com"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>j.ayyad26@gmail.com</a>
+          <a class="chip" href="tel:+96171974007"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.7a2 2 0 0 1-.4 2.1L8 9.9a16 16 0 0 0 6 6l1.4-1.4a2 2 0 0 1 2.1-.4c.9.3 1.8.5 2.7.6a2 2 0 0 1 1.8 2.2z"/></svg>+961 71 974 007</a>
+          <a class="chip" href="https://www.linkedin.com/in/jana-ayyad-089721397" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M8 11v5M8 8v.01M12 16v-5M12 16v-3a2 2 0 0 1 4 0v3"/></svg>LinkedIn</a>
+          <a class="chip" href="https://github.com/janaayyad26-code" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg>GitHub</a>
+        </div>
+      </div>
+
+      <div class="about-copy reveal">
+        <div class="eyebrow">About Me</div>
+        <h3>Motivated, curious, and building steadily.</h3>
+        <p>I'm a Computer Science student at Beirut Arab University with a strong interest in technology and continuous learning. I'm developing hands-on knowledge in programming, web development, databases, data structures and software fundamentals — through academic coursework and practical projects, not just theory.</p>
+        <p>My interests sit around web development, AI, cybersecurity, databases, and data structures &amp; algorithms — I like courses and projects where I can actually build something and see it work, rather than just study it on paper.</p>
+        <p>I'm an adaptable learner with solid problem-solving and teamwork skills, and I'm eager to keep applying what I've learned to real, hands-on project work.</p>
+
+        <div class="goal-box">
+          <div class="gl">Career Goal</div>
+          <p>To build a strong career in Computer Science by developing solid technical skills, gaining practical work experience, and continuously learning new technologies — building a combination of academic knowledge, real projects, and professional experience that prepares me for a successful career in tech.</p>
+        </div>
+
+        <div class="edu-card">
+          <span class="yr">2024 – Present</span>
+          <div class="deg">Bachelor of Computer Science</div>
+          <div class="sub">Beirut Arab University — Tripoli, Lebanon</div>
+          <div class="edu-tags">
+            <span>Data Structures</span><span>Database Systems</span><span>Web Development</span>
+            <span>Discrete Structures</span><span>Linear Algebra</span><span>Software Engineering</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="divider wrap">
+
+<!-- ================= 3. SKILLS ================= -->
+<section class="section" id="skills">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Skills</div>
+      <h2>What I work with.</h2>
+      <p class="lead">Skills built through coursework and hands-on project work — organized by area, with where I've actually applied them.</p>
+    </div>
+
+    <div class="skills-grid">
+      <div class="skill-card reveal">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div>
+        <h4>Programming</h4>
+        <div class="tagset"><span>Java</span><span>OOP</span><span>JavaScript</span><span>PHP</span></div>
+        <p style="font-size:13px;color:var(--muted);margin-bottom:10px;">Classes, inheritance &amp; polymorphism, collections, and algorithmic problem-solving in Java; DOM &amp; event handling in JavaScript; server-side basics in PHP.</p>
+        <div class="used-in">Used in: <b>UniTrack</b>, <b>InsurePro</b></div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg></div>
+        <h4>Web Development</h4>
+        <div class="tagset"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        <p style="font-size:13px;color:var(--muted);margin-bottom:10px;">Structured, semantic pages, responsive layout fundamentals, and interactive UI behavior.</p>
+        <div class="used-in">Used in: <b>Luxora</b> — an online store site built with HTML, CSS &amp; JavaScript</div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 1.7 3.6 3 8 3s8-1.3 8-3V5M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/></svg></div>
+        <h4>Databases &amp; SQL</h4>
+        <div class="tagset"><span>SQL</span><span>SQL Server</span><span>ER Modeling</span></div>
+        <p style="font-size:13px;color:var(--muted);margin-bottom:10px;">Database design, entities &amp; relationships, primary/foreign keys, and writing queries for data retrieval and manipulation.</p>
+        <div class="used-in">Used in: <b>Global Shipping</b> — entity design and SQL queries</div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="6" cy="6" r="2.5"/><circle cx="6" cy="18" r="2.5"/><circle cx="18" cy="12" r="2.5"/><path d="M6 8.5V15.5M8 6l7.5 4.8M8 18l7.5-4.8"/></svg></div>
+        <h4>Data Structures &amp; Algorithms</h4>
+        <div class="tagset"><span>Arrays</span><span>Linked Lists</span><span>Stacks / Queues</span><span>BSTs</span></div>
+        <p style="font-size:13px;color:var(--muted);margin-bottom:10px;">Choosing the right structure for a problem, plus basic searching, sorting and algorithmic problem-solving.</p>
+        <div class="used-in">Used in: <b>UniTrack</b> — Java + data structures for a university management system</div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 20h9M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg></div>
+        <h4>Software Engineering</h4>
+        <div class="tagset"><span>Requirements Analysis</span><span>System Design</span></div>
+        <p style="font-size:13px;color:var(--muted);margin-bottom:10px;">Analyzing requirements, designing system structure, and organizing functionality following a defined development process.</p>
+        <div class="used-in">Used in: <b>InsurePro</b> — Software Engineering course project</div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 8h10M7 12h10M7 16h6"/></svg></div>
+        <h4>Development Tools</h4>
+        <div class="tagset"><span>VS Code</span><span>Git</span><span>GitHub</span><span>MS Office</span></div>
+        <p style="font-size:13px;color:var(--muted);margin-bottom:10px;">Comfortable writing, organizing, testing and managing code inside a real development environment.</p>
+        <div class="used-in">Used across coursework &amp; every project below</div>
+      </div>
+    </div>
+
+    <div class="soft-lang-row">
+      <div class="mini-card reveal">
+        <h4>Soft Skills</h4>
+        <div class="tagset" style="gap:10px;">
+          <span>Problem-Solving</span><span>Critical Thinking</span><span>Teamwork</span>
+          <span>Communication</span><span>Time Management</span><span>Adaptability</span>
+        </div>
+      </div>
+      <div class="mini-card reveal">
+        <h4>Languages</h4>
+        <div class="lang-item"><span>Arabic</span><span class="lvl">Native</span></div>
+        <div class="lang-item"><span>English</span><span class="lvl">Fluent</span></div>
+        <div class="lang-item"><span>French</span><span class="lvl">Good Working Proficiency</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="divider wrap">
+
+<!-- ================= 10. PROJECTS ================= -->
+<section class="section" id="projects">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Projects &amp; Work Samples</div>
+      <h2>Academic work, built to work.</h2>
+      <p class="lead">Course and team projects where I applied what I was learning to something functional.</p>
+    </div>
+
+    <div class="projects-grid">
+      <div class="project-card reveal">
+        <div class="project-thumb">
+          <img src="assets/images/insurepro.jpg" alt="InsurePro project preview">
+        </div>
+        <div class="project-body">
+          <div class="ptitle">InsurePro</div>
+          <span class="ptag">Software Engineering Project · CMPS344</span>
+          <ul>
+            <li>AI-based smart insurance management system, built with a team</li>
+            <li>Led requirements analysis and system design work</li>
+            <li>Applied software engineering principles across the SDLC</li>
+          </ul>
+          <div class="project-links">
+            <a class="btn btn-ghost btn-sm" href="https://github.com/janaayyad26-code" target="_blank" rel="noopener">GitHub Profile</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-thumb">
+          <img src="assets/images/luxora.jpg" alt="Luxora project preview">
+        </div>
+        <div class="project-body">
+          <div class="ptitle">Luxora</div>
+          <span class="ptag">Online Store Website · HTML / CSS / JavaScript</span>
+          <ul>
+            <li>Responsive online store site built from scratch</li>
+            <li>Structured pages with a focus on usability and layout</li>
+            <li>Interactive UI components implemented in JavaScript</li>
+          </ul>
+          <div class="project-links">
+            <a class="btn btn-ghost btn-sm" href="https://github.com/janaayyad26-code" target="_blank" rel="noopener">GitHub Profile</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-thumb">
+          <img src="assets/images/unitrack.jpg" alt="UniTrack project preview">
+        </div>
+        <div class="project-body">
+          <div class="ptitle">UniTrack</div>
+          <span class="ptag">University Management System · Java / Data Structures</span>
+          <ul>
+            <li>Built for administrative and faculty use</li>
+            <li>Applied core data structures to organize system data efficiently</li>
+          </ul>
+          <div class="project-links">
+            <a class="btn btn-ghost btn-sm" href="https://github.com/janaayyad26-code" target="_blank" rel="noopener">GitHub Profile</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-thumb">
+          <img src="assets/images/global-shipping.jpg" alt="Global Shipping project preview">
+        </div>
+        <div class="project-body">
+          <div class="ptitle">Global Shipping</div>
+          <span class="ptag">Database Project · SQL</span>
+          <ul>
+            <li>Designed entities and relationships for shipping operations</li>
+            <li>Wrote targeted SQL queries to manage and retrieve data</li>
+          </ul>
+          <div class="project-links">
+            <a class="btn btn-ghost btn-sm" href="https://github.com/janaayyad26-code" target="_blank" rel="noopener">GitHub Profile</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="divider wrap">
+
+<!-- ================= 4. PROFESSIONAL DEVELOPMENT PLAN ================= -->
+<section class="section" id="plan">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Professional Development Plan</div>
+      <h2>Where I'm headed, and how I'll get there.</h2>
+      <p class="lead">Five goals covering my next two years — career readiness, technical growth, portfolio building, professional skills, and long-term career planning.</p>
+    </div>
+
+    <div class="pdp-longterm reveal">
+      <div class="eyebrow" style="margin-bottom:6px;">Long-Term Goal</div>
+      <p>To build a strong career in Computer Science by developing solid technical skills, gaining practical work experience, and continuously learning new technologies — building a combination of academic knowledge, real projects, and professional experience.</p>
+    </div>
+
+    <div class="timeline reveal">
+
+      <div class="tgoal" data-n="01">
+        <div class="tgoal-head">
+          <h4>Gain My First Professional Experience</h4>
+          <p>Practical, hands-on experience where I can apply what I've learned at university — through projects, training, or future opportunities.</p>
+        </div>
+        <div class="tsteps">
+          <div class="tstep"><span class="st">Complete my CV, cover letter, and career portfolio</span><span class="sd">Aug 2026</span></div>
+          <div class="tstep"><span class="st">Keep my LinkedIn profile professional and updated</span><span class="sd">Aug–Sep 2026</span></div>
+          <div class="tstep"><span class="st">Organize my GitHub and upload suitable projects</span><span class="sd">Sep 2026</span></div>
+          <div class="tstep"><span class="st">Start exploring relevant work opportunities</span><span class="sd">Sep–Dec 2026</span></div>
+          <div class="tstep"><span class="st">Gain hands-on practical experience</span><span class="sd">2027</span></div>
+        </div>
+      </div>
+
+      <div class="tgoal" data-n="02">
+        <div class="tgoal-head">
+          <h4>Strengthen My Technical Foundation</h4>
+          <p>Improve the skills I'm currently learning rather than spreading myself across too many technologies.</p>
+        </div>
+        <div class="tsteps">
+          <div class="tstep"><span class="st">Strengthen my Java programming skills</span><span class="sd">2026</span></div>
+          <div class="tstep"><span class="st">Improve Data Structures &amp; Algorithms understanding</span><span class="sd">2026–2027</span></div>
+          <div class="tstep"><span class="st">Practice SQL and database design</span><span class="sd">2026–2027</span></div>
+          <div class="tstep"><span class="st">Improve HTML, CSS, JavaScript &amp; PHP skills</span><span class="sd">2026–2027</span></div>
+          <div class="tstep"><span class="st">Learn Git and GitHub properly</span><span class="sd">Sep 2026</span></div>
+          <div class="tstep"><span class="st">Explore AI and Cybersecurity fundamentals</span><span class="sd">2027</span></div>
+        </div>
+      </div>
+
+      <div class="tgoal" data-n="03">
+        <div class="tgoal-head">
+          <h4>Build a Strong Portfolio</h4>
+          <p>Turn my university projects and activities into a professional portfolio that demonstrates what I can actually do.</p>
+        </div>
+        <div class="tsteps">
+          <div class="tstep"><span class="st">Complete my digital career portfolio</span><span class="sd">Aug 2026</span></div>
+          <div class="tstep"><span class="st">Add InsurePro, Luxora, UniTrack &amp; Global Shipping</span><span class="sd">Aug 2026</span></div>
+          <div class="tstep"><span class="st">Organize my GitHub repositories</span><span class="sd">Sep 2026</span></div>
+          <div class="tstep"><span class="st">Add certificates and volunteering experiences</span><span class="sd">Aug 2026</span></div>
+          <div class="tstep"><span class="st">Create at least one additional personal project</span><span class="sd">2027</span></div>
+          <div class="tstep"><span class="st">Continue updating my portfolio as I gain experience</span><span class="sd">Ongoing</span></div>
+        </div>
+      </div>
+
+      <div class="tgoal" data-n="04">
+        <div class="tgoal-head">
+          <h4>Develop My Professional Skills</h4>
+          <p>Improve the communication, teamwork, organization and problem-solving skills that matter in the workplace.</p>
+        </div>
+        <div class="tsteps">
+          <div class="tstep"><span class="st">Participate in university projects and group work</span><span class="sd">Ongoing</span></div>
+          <div class="tstep"><span class="st">Continue volunteering at university &amp; tech events</span><span class="sd">Ongoing</span></div>
+          <div class="tstep"><span class="st">Improve communication and presentation skills</span><span class="sd">2026–2027</span></div>
+          <div class="tstep"><span class="st">Improve my time management</span><span class="sd">Ongoing</span></div>
+          <div class="tstep"><span class="st">Practice professional interviews before applying</span><span class="sd">Before applications</span></div>
+        </div>
+      </div>
+
+      <div class="tgoal" data-n="05">
+        <div class="tgoal-head">
+          <h4>Prepare for My Future Career</h4>
+          <p>Gradually prepare for my future career while learning which areas of Computer Science I enjoy most.</p>
+        </div>
+        <div class="tsteps">
+          <div class="tstep"><span class="st">Explore different CS areas through projects &amp; courses</span><span class="sd">2026–2027</span></div>
+          <div class="tstep"><span class="st">Gain practical work experience during my studies</span><span class="sd">2027–2028</span></div>
+          <div class="tstep"><span class="st">Build relationships with professionals &amp; alumni</span><span class="sd">Ongoing</span></div>
+          <div class="tstep"><span class="st">Attend technology events and workshops</span><span class="sd">2026–2028</span></div>
+          <div class="tstep"><span class="st">Build a strong portfolio and gain real experience</span><span class="sd">Ongoing</span></div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="section-actions reveal">
+      <a class="btn btn-primary" href="assets/docs/Jana_Ayyad_Professional_Development_Plan.pdf" target="_blank" rel="noopener">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 8h10M7 12h10M7 16h6"/></svg>
+        View Full Plan (PDF)
+      </a>
+      <a class="btn btn-ghost" href="assets/docs/Jana_Ayyad_Professional_Development_Plan.pdf" download>Download PDF</a>
+    </div>
+  </div>
+</section>
+
+<hr class="divider wrap">
+
+<!-- ================= 5. CV ================= -->
+<section class="section" id="cv">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Curriculum Vitae</div>
+      <h2>My CV, in full.</h2>
+      <p class="lead">Everything below is also available as a formatted PDF, ready to send to an employer.</p>
+    </div>
+
+    <div class="cv-page reveal">
+      <div class="cv-head">
+        <div>
+          <h3>Jana Ayyad</h3>
+          <div class="role">Third-Year Computer Science Student</div>
+        </div>
+        <div style="display:flex; gap:10px;">
+          <a class="btn btn-primary btn-sm" href="assets/docs/Jana_Ayyad_CV.pdf" target="_blank" rel="noopener">View PDF</a>
+          <a class="btn btn-ghost btn-sm" href="assets/docs/Jana_Ayyad_CV.pdf" download>Download</a>
+        </div>
+      </div>
+      <div class="cv-body">
+        <div class="cv-side">
+          <h5>Personal Details</h5>
+          <p><strong>Location:</strong><br>Tripoli, Lebanon</p><br>
+          <p><strong>Phone:</strong><br>+961 71 974 007</p><br>
+          <p><strong>Email:</strong><br>j.ayyad26@gmail.com</p><br>
+          <p><strong>LinkedIn:</strong><br><a href="https://www.linkedin.com/in/jana-ayyad-089721397" target="_blank" rel="noopener" style="color:var(--sage);">jana-ayyad-089721397</a></p><br>
+          <p><strong>GitHub:</strong><br><a href="https://github.com/janaayyad26-code" target="_blank" rel="noopener" style="color:var(--sage);">janaayyad26-code</a></p>
+
+          <h5>Technical Skills</h5>
+          <p><strong>Programming:</strong> Java, JavaScript, PHP</p><br>
+          <p><strong>Web Dev:</strong> HTML, CSS, JavaScript, PHP</p><br>
+          <p><strong>Databases:</strong> SQL, SQL Server, Design, Queries</p><br>
+          <p><strong>Data Structures:</strong> Arrays, Linked Lists, Queues, Stacks, BST</p><br>
+          <p><strong>Tools:</strong> VS Code, Git, GitHub, MS Office</p>
+
+          <h5>Languages</h5>
+          <ul>
+            <li>Arabic — Native</li>
+            <li>English — Fluent</li>
+            <li>French — Good Working Proficiency</li>
+          </ul>
+
+          <h5>Soft Skills</h5>
+          <p>Problem-Solving · Critical Thinking · Teamwork · Communication · Time Management · Adaptability</p>
+        </div>
+
+        <div class="cv-main">
+          <div class="cv-block">
+            <h5>Professional Summary</h5>
+            <p class="summary">Motivated Computer Science student at Beirut Arab University with a strong interest in technology and continuous learning. Developing hands-on knowledge in programming, web development, databases, data structures, and computer science fundamentals through academic coursework and practical projects. Dedicated and adaptable learner with strong problem-solving and teamwork skills, eager to apply academic knowledge to real-world challenges.</p>
+          </div>
+
+          <div class="cv-block">
+            <h5>Education</h5>
+            <div class="cv-item">
+              <div class="it">Beirut Arab University <span style="float:right; font-weight:400; font-size:12px; color:var(--muted-dim);">2024 – Present</span></div>
+              <div class="is">Bachelor of Computer Science — Tripoli, Lebanon</div>
+              <p style="font-size:12.5px; color:var(--muted);"><strong>Relevant Coursework:</strong> Data Structures, Database Systems, Web Development, Discrete Structures, Linear Algebra, Software Engineering</p>
+            </div>
+          </div>
+
+          <div class="cv-block">
+            <h5>Academic Projects</h5>
+            <div class="cv-item">
+              <div class="it">InsurePro</div>
+              <div class="is">Software Engineering Project</div>
+              <ul>
+                <li>Developed a software project focused on an insurance management concept</li>
+                <li>Applied software engineering principles throughout system design and development</li>
+                <li>Analyzed requirements and organized core system functionality</li>
+              </ul>
+            </div>
+            <div class="cv-item">
+              <div class="it">Luxora — Online Store Website</div>
+              <div class="is">HTML | CSS | JavaScript</div>
+              <ul>
+                <li>Developed a responsive online store website using HTML, CSS, and JavaScript</li>
+                <li>Structured web pages focusing on usability and visual organization</li>
+                <li>Implemented interactive UI components using JavaScript</li>
+              </ul>
+            </div>
+            <div class="cv-item">
+              <div class="it">UniTrack — University Management System</div>
+              <div class="is">Java | Data Structures</div>
+              <ul>
+                <li>Built a university management system for administrative and faculty use</li>
+                <li>Applied core data structures to efficiently organize and manage system data</li>
+              </ul>
+            </div>
+            <div class="cv-item">
+              <div class="it">Global Shipping</div>
+              <div class="is">Database | SQL Queries</div>
+              <ul>
+                <li>Designed entities and relationships for global shipping operations</li>
+                <li>Applied targeted SQL queries to manage and retrieve data efficiently</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="cv-block">
+            <h5>Certifications &amp; Training</h5>
+            <ul style="list-style:none;">
+              <li style="font-size:13px;color:var(--muted);margin-bottom:6px;"><strong style="color:var(--cream);">Google DevFest 2025</strong> — Certificate of Appreciation</li>
+              <li style="font-size:13px;color:var(--muted);margin-bottom:6px;"><strong style="color:var(--cream);">IC3</strong> — Digital Literacy Certification</li>
+              <li style="font-size:13px;color:var(--muted);"><strong style="color:var(--cream);">Objectia International</strong> — Certificate</li>
+            </ul>
+          </div>
+
+          <div class="cv-block">
+            <h5>Volunteering &amp; Activities</h5>
+            <ul style="list-style:none;">
+              <li style="font-size:13px;color:var(--muted);margin-bottom:6px;"><strong style="color:var(--cream);">Volunteer</strong> — Google DevFest 2025</li>
+              <li style="font-size:13px;color:var(--muted);margin-bottom:6px;"><strong style="color:var(--cream);">Volunteer</strong> — Lebanese Collegiate Programming Contest (LCPC)</li>
+              <li style="font-size:13px;color:var(--muted);"><strong style="color:var(--cream);">Volunteer</strong> — University Events, Beirut Arab University</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="divider wrap">
+
+<!-- ================= 6. COVER LETTER ================= -->
+<section class="section" id="letter">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Cover Letter</div>
+      <h2>Cover Letter</h2>
+      <p class="lead">The complete letter is included below, and available as a downloadable PDF.</p>
+    </div>
+
+    <div class="letter-card reveal">
+      <div class="letter-date">August 15, 2026</div>
+      <div class="letter-body">
+        <p><strong>Dear Hiring Manager,</strong></p>
+        <p>I am writing to express my eager interest in an internship opportunity where I can apply the knowledge developed through my current Bachelor of Computer Science studies at Beirut Arab University and my practical experience. I am seeking to contribute to real-world projects, strengthen my technical abilities in Java, JavaScript, PHP, HTML, CSS, and SQL, and continue developing as a dedicated Computer Science student.</p>
+        <p>Through my coursework and numerous projects, I have gained practical experience in areas including web development, database design, software engineering, and data structures. My academic work allowed me to strengthen my analysis skills and develop organized, systematically approached solutions.</p>
+        <p>Specifically, my project experience includes:</p>
+        <ul>
+          <li><strong>InsurePro</strong> — a Software Engineering project where I worked on requirements analysis, system design, and core functionality</li>
+          <li><strong>Luxora</strong> — an online store website developed using HTML, CSS, and JavaScript</li>
+          <li><strong>UniTrack</strong> — a university management system developed using Java and data structures</li>
+          <li><strong>Global Shipping</strong> — a database project involving entities, relationships, and SQL queries</li>
+        </ul>
+        <p>These projects have not only sharpened my technical acumen but also refined my problem-solving and critical thinking skills. Beyond my academics, volunteering at Google DevFest 2025 and the Lebanese Collegiate Programming Contest (LCPC) has provided valuable experience in collaborative and professional technical environments. I am a continuous, highly motivated learner eager to take initiative and grow professionally.</p>
+        <p>I would welcome the opportunity to discuss how my skills and background could benefit your team. I look forward to hearing from you.</p>
+        <div class="letter-sign">Sincerely,<br>Jana Ayyad</div>
+      </div>
+    </div>
+
+    <div class="section-actions reveal">
+      <a class="btn btn-primary" href="assets/docs/Jana_Ayyad_Cover_Letter.pdf" target="_blank" rel="noopener">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 8h10M7 12h10M7 16h6"/></svg>
+        View Full Letter (PDF)
+      </a>
+      <a class="btn btn-ghost" href="assets/docs/Jana_Ayyad_Cover_Letter.pdf" download>Download PDF</a>
+    </div>
+  </div>
+</section>
+
+<hr class="divider wrap">
+
+<!-- ================= 7. WORK-BASED LEARNING REFLECTION ================= -->
+<section class="section" id="reflection">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Work-Based Learning Reflection</div>
+      <h2>What my work exposure taught me.</h2>
+    </div>
+
+    <div class="letter-card reveal" style="padding:44px 48px;">
+      <div class="letter-body">
+        <p>My work experience taught me important skills that I can use in both my studies and future career. I learned how to communicate effectively, work as part of a team, manage my time, and take responsibility for my tasks. It also taught me how to adapt to new situations and solve problems when challenges arise.</p>
+        <p>These experiences helped me become more confident and professional. They also gave me a better understanding of my strengths and encouraged me to keep improving my technical and personal skills as I prepare for a career in software engineering.</p>
+      </div>
+    </div>
+
+    <div class="reflect-tags reveal">
+      <span><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>Communication</span>
+      <span><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>Teamwork</span>
+      <span><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>Time Management</span>
+      <span><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"/></svg>Adaptability</span>
+      <span><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M12 20h9M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg>Problem-Solving</span>
+    </div>
+
+    <div class="workplace-comm reveal">
+      <div class="section-head" style="margin-bottom:28px;">
+        <div class="eyebrow">Workplace Communication</div>
+        <h3 style="font-size:1.5rem;">Good communication vs. poor communication.</h3>
+      </div>
+      <div class="comic-frame">
+        <img src="assets/images/workplace-communication.jpg" alt="Comic strip comparing poor communication and good communication in the workplace">
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="divider wrap">
+
+<!-- ================= 8. LEARNING STYLE & STRATEGY ================= -->
+<section class="section" id="learning-style">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">WRN Virtual Assignment</div>
+      <h2>My Learning Style</h2>
+      <p class="lead">How I learn best, and how I approach new or difficult material.</p>
+    </div>
+
+    <div class="learning-grid">
+      <div class="learn-card reveal">
+        <span class="ln">01</span>
+        <h4>Writing</h4>
+        <p>I write down important information, concepts, and explanations to organize my thoughts and remember what I learn.</p>
+      </div>
+      <div class="learn-card reveal">
+        <span class="ln">02</span>
+        <h4>Understanding</h4>
+        <p>I review what I have written and break difficult concepts into simpler ideas to make sure I understand them.</p>
+      </div>
+      <div class="learn-card reveal">
+        <span class="ln">03</span>
+        <h4>Practice</h4>
+        <p>I learn best by actually doing things, solving exercises, completing tasks, and applying concepts instead of only studying theory.</p>
+      </div>
+      <div class="learn-card reveal">
+        <span class="ln">04</span>
+        <h4>Repetition</h4>
+        <p>I repeat exercises and practice different examples to strengthen my understanding and become more confident with the material.</p>
+      </div>
+      <div class="learn-card reveal">
+        <span class="ln">05</span>
+        <h4>Reflection</h4>
+        <p>I review my work, identify mistakes, and write down what I could improve so I can learn from the experience.</p>
+      </div>
+    </div>
+
+    <div class="mini-card reveal" style="margin-top:20px;">
+      <h4 style="margin-bottom:16px;">Learning Strategy</h4>
+      <ul class="strategy-list">
+        <li>Write down the key concepts and information when learning something new.</li>
+        <li>Apply what I learn immediately through exercises, projects, and practical activities.</li>
+        <li>Learn from mistakes by reviewing incorrect answers and understanding why they happened.</li>
+        <li>Practice repeatedly using different examples until I can perform the task independently.</li>
+        <li>Combine writing and hands-on practice to strengthen both understanding and memory.</li>
+      </ul>
+    </div>
+
+    <div class="soft-lang-row reveal" style="margin-top:20px;">
+      <div class="mini-card">
+        <h4>Currently Exploring</h4>
+        <div class="tagset" style="gap:10px;">
+          <span>Artificial Intelligence</span><span>Software Development</span><span>Algorithms</span><span>System Design</span>
+        </div>
+      </div>
+      <div class="edu-card" style="margin-top:0;">
+        <div class="deg">Beirut Arab University</div>
+        <div class="sub">Bachelor of Computer Science · 2024 – Present</div>
+        <p style="font-size:12.5px; color:var(--muted-dim);">Beirut, Lebanon</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="divider wrap">
+
+<!-- ================= 9. LINKEDIN ================= -->
+<section class="section" id="linkedin">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">LinkedIn</div>
+      <h2>Connect with me professionally.</h2>
+    </div>
+
+    <div class="linkedin-card reveal">
+      <div class="linkedin-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 11v5M8 8v.01M12 16v-5M12 16v-3a2 2 0 0 1 4 0v3"/></svg>
+      </div>
+      <div>
+        <h4>Jana Ayyad</h4>
+        <p>Third-Year Computer Science Student at Beirut Arab University</p>
+        <span class="handle">linkedin.com/in/jana-ayyad-089721397</span>
+      </div>
+      <a class="btn btn-primary" href="https://www.linkedin.com/in/jana-ayyad-089721397" target="_blank" rel="noopener">View Profile</a>
+    </div>
+  </div>
+</section>
+
+<hr class="divider wrap">
+
+<!-- ================= 11. CERTIFICATIONS & ACTIVITIES ================= -->
+<section class="section" id="certifications">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Certifications</div>
+      <h2>Certifications.</h2>
+      <p class="lead">Certificates and training completed alongside my coursework, plus the volunteering that's come with them.</p>
+    </div>
+
+    <div class="cert-visual-wrap reveal">
+      <a href="assets/images/certificate.jpg" target="_blank" rel="noopener" class="cert-visual-frame has-image">
+        <img src="assets/images/certificate.jpg" alt="Certificate of Appreciation — Jana Ayyad, DevFest Tripoli 2025 volunteer, Google Developer Group North Lebanon">
+      </a>
+      <p class="cert-visual-caption">Certificate of Appreciation — Google Developer Group North Lebanon, DevFest Tripoli 2025, in collaboration with Beirut Arab University. Click to view full size.</p>
+    </div>
+
+    <div class="cert-grid">
+      <div class="list-card reveal">
+        <h3><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="m12 2 2.6 5.9 6.4.6-4.8 4.3 1.4 6.3L12 16l-5.6 3 1.4-6.3-4.8-4.3 6.4-.6z"/></svg>Certifications &amp; Training</h3>
+        <div class="list-row"><div><div class="t">Google DevFest 2025</div><div class="s">Certificate of Appreciation</div></div></div>
+        <div class="list-row"><div><div class="t">IC3</div><div class="s">Digital Literacy Certification</div></div></div>
+        <div class="list-row"><div><div class="t">Objectia International</div><div class="s">Certificate</div></div></div>
+      </div>
+
+      <div class="list-card reveal">
+        <h3><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>Volunteering</h3>
+        <div class="list-row"><div><div class="t">Google DevFest 2025</div><div class="s">Volunteer</div></div></div>
+        <div class="list-row"><div><div class="t">Lebanese Collegiate Programming Contest (LCPC)</div><div class="s">Volunteer</div></div></div>
+        <div class="list-row"><div><div class="t">Beirut Arab University Events</div><div class="s">Volunteer</div></div></div>
+      </div>
+    </div>
+
+    <div class="placeholder-card reveal" style="margin-top:22px; padding:30px;">
+      <p style="margin:0;">Have workshops, training, or awards to add? Drop them into this section using the same <code>list-row</code> pattern above — no invented entries are included by default.</p>
+    </div>
+  </div>
+</section>
+
+<hr class="divider wrap">
+
+<!-- ================= 12. CONTACT ================= -->
+<section class="section" id="contact">
+  <div class="wrap">
+    <div class="contact-grid contact-solo">
+      <div class="contact-info reveal">
+        <div class="eyebrow">Get In Touch</div>
+        <h2>Let's get<br>in touch.</h2>
+        <p class="lead">I'm always glad to connect, share my work, or talk about Computer Science. Reach out any way that works for you.</p>
+
+        <div class="contact-links">
+          <a class="contact-link" href="mailto:j.ayyad26@gmail.com">
+            <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></div>
+            <div class="txt"><div class="l1">Email</div><div class="l2">j.ayyad26@gmail.com</div></div>
+          </a>
+          <a class="contact-link" href="tel:+96171974007">
+            <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.7a2 2 0 0 1-.4 2.1L8 9.9a16 16 0 0 0 6 6l1.4-1.4a2 2 0 0 1 2.1-.4c.9.3 1.8.5 2.7.6a2 2 0 0 1 1.8 2.2z"/></svg></div>
+            <div class="txt"><div class="l1">Phone</div><div class="l2">+961 71 974 007</div></div>
+          </a>
+          <a class="contact-link" href="https://www.linkedin.com/in/jana-ayyad-089721397" target="_blank" rel="noopener">
+            <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M8 11v5M8 8v.01M12 16v-5M12 16v-3a2 2 0 0 1 4 0v3"/></svg></div>
+            <div class="txt"><div class="l1">LinkedIn</div><div class="l2">linkedin.com/in/jana-ayyad-089721397</div></div>
+          </a>
+          <a class="contact-link" href="https://github.com/janaayyad26-code" target="_blank" rel="noopener">
+            <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg></div>
+            <div class="txt"><div class="l1">GitHub</div><div class="l2">github.com/janaayyad26-code</div></div>
+          </a>
+          <div class="contact-link" style="cursor:default;">
+            <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M12 21s7-6.3 7-11a7 7 0 1 0-14 0c0 4.7 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></div>
+            <div class="txt"><div class="l1">Location</div><div class="l2">Tripoli, Lebanon</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap foot-row">
+    <div class="fl">© 2026 Jana Ayyad — Computer Science Portfolio</div>
+    <div class="fl">Built for Beirut Arab University · Career Portfolio Assignment</div>
+    <a class="back-top" href="#home" aria-label="Back to top">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+    </a>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
